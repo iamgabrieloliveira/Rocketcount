@@ -1,0 +1,35 @@
+@media(max-width: 1300px){
+    main{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        height: 100vh;
+    }    
+    .left-title{
+        font-size: 30px;
+    }
+    .tempo > h1{
+        font-size: 50px;
+    }
+    .foguete-container > img{
+        width: 300px;
+    }
+    .descricao{
+        gap: 60px;
+    }
+    .descricao  > p{
+        margin-right: 0;
+        width: 50px;
+    }
+}
+@media(max-width: 500px){
+    .descricao{
+        gap: 40px;  
+    }
+    .tempo > h1{
+        font-size: 30px
+    }
+    .left-title{
+        font-size: 20px;
+    }
+}
